@@ -12,10 +12,12 @@ public class Match {
         this.minWeight = minWeight;
         this.maxWeight = maxWeight;
         if (randomNumber <= 50) {
+            System.out.println("İlk sporcu ilk vuruşu yapıcak");
             this.first = f1;
             this.second = f2;
         }
         else {
+            System.out.println("İkinci sporcu ilk vuruşu yapıcak");
             this.first = f2;
             this.second = f1;
         }
