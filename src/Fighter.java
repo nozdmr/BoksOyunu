@@ -25,7 +25,6 @@ public class Fighter {
             System.out.println("-------------------");
             return foe.health;
         }
-
         if ( foe.health - this.damage <0) {
             return 0;
         }
