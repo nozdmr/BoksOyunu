@@ -53,12 +53,12 @@ public class Match {
                 (this.f2.weight >= minWeight && this.f2.weight <=maxWeight )  );
     }
     boolean isWin() {
-        if (first.health ==0) {
-            System.out.println(second.name + " kazandı!");
+        if (this.first.health ==0) {
+            System.out.println(this.second.name + " kazandı!");
             return true;
         }
-        if (second.health == 0) {
-            System.out.println(first.name + " kazandı!");
+        if (this.second.health == 0) {
+            System.out.println(this.first.name + " kazandı!");
             return  true;
 
         }
